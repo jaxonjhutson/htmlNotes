@@ -3,10 +3,10 @@
         <title>Notes | Color</title>
     </head>
     <body>
-        <header>
-            <h1>My HTML Notes Page</h1>
+        <header style="background-color: rgba(0,0,0,0.6);">
+            <h1 style="color: rgba(255,255,255,1);">My HTML Notes Page</h1>
         </header>
-        <nav>
+        <nav style="background-color: rgba(0,0,0,0.1);">
             <div>
                 <a href="index.html">Home</a> |
                 <a href="practice.html">First Practice Page (Kinda Bad)</a> |
@@ -18,9 +18,25 @@
                 <a href="layout.html">Layout</a>
             </div>
         </nav>
-        <main>
-            <section>
-
+        <main style="background-color: rgba(0,0,0,1);">
+            <section style="background-color: rgba(255,255,255,0.5);">
+                    <h2 style="color: rgba(0,100,10,1);">There are three ways to do color.</h2>
+                    <p>- Name<br>
+                    - Hex<br>
+                    - Styles using RGBA (doesn't work in HTML, use CSS)</p>
+                    <h3>Name</h3>
+                    <p>- Name is limited to 140ish defined names that you can look up</p>
+                    <h3>Hex (Hexadecimal)</h3>
+                    <p>- If you use hex, you have 16 million and change, which is a pretty big deal (though there are only 216 web safe colors).<br>
+                    - Hexadecimal is a base 16 numbering system, which means that it has 16 digits<br> 
+                    - Those digits being 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, A, B, C, D, E, and F.<br>
+                    - Browsers, however, interpret this differently, so to make web safe colors you must have sets of the same digit (ex. 11, AA, or FF).<br>
+                    - As for syntax, you start with a # then follow with six digits.</p>
+                    <h3>RGBA</h3>
+                    <p>- RGBA stands for red, green, blue, and alpha<br>
+                    - Can only be used with stylesheets.<br>
+                    - Syntax will be: rgba(0-255, 0-255, 0-255, 0-1)<br>
+                    - Alpha basically controls opacity </p>
             </section>
             <aside>
 
