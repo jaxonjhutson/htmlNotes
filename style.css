@@ -1,13 +1,79 @@
-nav {
-    background-color: #333;
+body {
+background-color: darkgrey;     
+}
+p {
+        font-size:10pt;
+        font-weight:800
+            }
+header {
     width: 800px;
-    padding-top: 5px;
-    Padding-bottom: 5px;
+    Height: 130px;
+    Background-color: #ccc;
+    color: #66f;
+    padding-top: 20px;
+    text-align: center;
+    }
+main {
+    width: 790px;
+    padding: 5px;
+    Background-color: #ccc;
+    }
+section{
+    background-color: rgba(255,255,255,0.5);
+    padding: 7;
+    }
+nav {
+    background-color: rgba(0,0,0,0.1);
+    width: 800px;
+    padding-top: 10px;
+    Padding-bottom: 0px;
+    color: white;
+    cursor: default;
+    }
+a { 
+    color: black; 
+    background-color: darkgrey;
+    padding: 2px 10px 2px 10px;
+    border-radius: 5px 5px 0px 0px;
+    margin: 0px;
+    text-decoration: none;
+    font-weight: 700;
+    border-style: groove;
+    }
+a:hover {
+    color: darkgrey; 
+    background-color: white;
+    padding: 2px 10px 2px 10px;
+    border-radius: 5px 5px 0px 0px;
+    margin: 0px;
+    text-decoration: underline;
+    font-weight: 700;
+    transition: 0.25s;
+    border-color:  darkgrey;
+    border-style: groove;
+    }
+a:visited {
+    color: white; 
+    background-color: darkgrey;
+    padding: 2px 10px 2px 10px;
+    border-radius: 5px 5px 0px 0px;
+    margin: 0px;
+    text-decoration: none;
+    font-weight: 700;
+    }
+a:active {
+    color: white; 
+    background-color: darkgrey;
+    padding: 2px 10px 2px 10px;
+    border-radius: 5px 5px 0px 0px;
+    margin: 0px;
+    text-decoration: none;
+    font-weight: 700;
     }
 
 footer {
-    width:800px;
-    background-color: #000;
+    width: 800px;
+    background-color: #414141;
     color: #fff;
     height: 300px;
     padding-top: 10px;
